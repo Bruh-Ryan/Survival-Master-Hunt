@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://o3djs7fglbme"]
+
+[ext_resource type="Script" uid="uid://dt0m4srrybtv7" path="res://Scene/main_menu.gd" id="1"]
+
+[node name="Main_Menu" type="Node2D" unique_id=1947818405]
+script = ExtResource("1")
+
+[node name="Menu" type="CanvasLayer" parent="." unique_id=1631170201]
+
+[node name="Start" type="Label" parent="Menu" unique_id=764795770]
+offset_left = 287.0
+offset_top = 139.0
+offset_right = 871.0
+offset_bottom = 363.0
+
+[node name="Button" type="Button" parent="Menu/Start" unique_id=1098129885]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "START"
+
+[node name="Exit" type="Label" parent="Menu" unique_id=1705161666]
+offset_left = 437.0
+offset_top = 495.0
+offset_right = 771.0
+offset_bottom = 592.0
+
+[node name="Button" type="Button" parent="Menu/Exit" unique_id=1916535015]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "EXIT"

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://q8n4urvr7sar"]
+
+[ext_resource type="Script" uid="uid://dovs4i3yfs6y1" path="res://Scene/Hud.gd" id="1_0apqc"]
+
+[node name="Hud" type="CanvasLayer" unique_id=159590316]
+script = ExtResource("1_0apqc")
+
+[node name="KillsLabel" type="Label" parent="." unique_id=494592334]
+offset_left = 1017.0
+offset_top = 16.0
+offset_right = 1122.0
+offset_bottom = 65.0
+
+[node name="TimeLabel" type="Label" parent="." unique_id=237880410]
+offset_left = 231.0
+offset_top = 16.0
+offset_right = 859.0
+offset_bottom = 65.0
